@@ -62,17 +62,3 @@ To evaluate ALD-R on Atari games, execute the following command:
 python atari/ppo_ald_r.py
 ```
 
-### IsaacGym Benchmarks
-
-To test ALD-R on IsaacGym tasks, use this command:
-
-```bash
-python isaacgym/ppo_ald_r.py
-```
-
----
-
-Feel free to reach out if you have questions or need further assistance with this codebase!
-```
-
-This markdown version is concise, rephrased, and ready for use in a project repository. Let me know if you need further adjustments!
