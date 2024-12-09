@@ -106,17 +106,6 @@ This section describes all configurable command-line flags available in the scri
 - `--num-eval-envs`: (int) Number of environments for evaluation. Default: 32.
 - `--num-eval-episodes`: (int) Number of episodes to evaluate. Default: 32.
 
-### Random Latent Exploration (RLE)
-- `--switch-steps`: (int) Interval (in steps) for switching latent rewards. Default: 500.
-- `--norm-rle-features`: (bool) Normalize RLE features. Default: True.
-- `--int-coef`: (float) Coefficient for intrinsic rewards. Default: 0.01.
-- `--ext-coef`: (float) Coefficient for extrinsic rewards. Default: 1.0.
-- `--int-gamma`: (float) Discount factor for intrinsic rewards. Default: 0.99.
-- `--feature-size`: (int) Size of the latent feature vector. Default: 16.
-- `--tau`: (float) Target network update rate for soft updates. Default: 0.005.
-- `--save-rle`: (bool) Save RLE features for analysis. Default: False.
-- `--num-iterations-feat-norm-init`: (int) Number of iterations to initialize feature normalization. Default: 1.
-
 ### Adaptive Latent Distributions (ALD-R)
 - `--adapt-latent`: (bool) Enables adaptive latent distribution updates. Default: True.
 - `--latent-lr`: (float) Learning rate for optimizing latent distributions. Default: 1e-3.
